@@ -1,0 +1,11 @@
+{
+  "app_name": "SwelNotes",
+  "app_version": "2.1 Beta 2",
+  "version": "11.3.24",
+  "build": "11.3.24",
+  "channel": "review-candidate",
+  "release_date": "2026-10-07",
+  "download_url": "https://github.com/swelgem-ctrl/SwelNotes/releases/download/v11.3.24/SwelNotes_Build11.3.24_WindowsTestCleanup.zip",
+  "sha256": "73dd9e8b763a8612efc36f637b5dcd08129c3c68f619fff38f0e36a2177d770c",
+  "release_notes": "Build 11.3.24 — Windows Test Cleanup\n\n• Explicitly closes SQLite connections in backup and database isolation tests.\n• Adds connection cleanup checks that do not rely on garbage collection.\n• Includes a dedicated repair test: RUN_FIX_TEST.bat.\n• Preserves isolated regression testing, automatic dependency checks and detailed logs.\n• Uses UTF-8 encoding for test logs.\n\nDistribution: portable Python source package. No Windows executable included.\nValidation: local regression checks passed. Windows acceptance remains incomplete; a Linux restart simulation test requires correction."
+}
